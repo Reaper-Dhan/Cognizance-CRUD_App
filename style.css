@@ -30,7 +30,7 @@ table.list {
 
 td {
     text-align: left;
-    padding: 8px 15px;
+    padding: 8px;
 }
 
 input[type="text"],
@@ -77,7 +77,7 @@ input[type="reset"]:hover {
 
 th {
     font-family: 'Pangolin', cursive;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 tbody {
