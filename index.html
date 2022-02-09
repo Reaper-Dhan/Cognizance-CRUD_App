@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crud Application in JS</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <table>
+            <tr>
+                <td>
+                    <center>
+                        <form autocomplete="off" onsubmit="onFormSubmit()" id="Fid">
+                            <br>
+                            <h1>Enter Member details here...</h1>
+                            <br><br>
+                            <div>
+                                <label for="name">Name</label><br>
+                                <input type="text" name="name" id="name">
+                            </div><br>
+                            <div>
+                                <label for="age">Age</label><br>
+                                <input type="number" name="age" id="age">
+                            </div><br>
+                            <div>
+                                <label for="email">Email</label><br>
+                                <input type="text" name="email" id="email">
+                            </div><br>
+                            <div>
+                                <label for="phone">Phone Number</label><br>
+                                <input type="tel" id="phone" name="phone">
+                            </div><br>
+                            <div>
+                                <label for="skill">Skills</label><br>
+                                <input type="text" name="skill" id="skill">
+                            </div><br>
+                            <div class="form_action--button">
+                                <input type="submit" value="Submit"> &emsp;&emsp;
+                                <input type="reset" value="Reset">
+                            </div>
+                            <br>
+                        </form>
+                    </center>
+                </td>
+                <br>
+                <td>
+                    <table class="list" id="storeList">
+                        <button type="button" id="Bttn" onClick="change()">Back to Form</button>
+                        <br>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Email</th>
+                                <th>Phone Number</th>
+                                <th>Skills</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <p><br><br></p>
+    </center>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

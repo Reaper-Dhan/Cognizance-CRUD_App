@@ -1,0 +1,123 @@
+body {
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    width: 450px;
+}
+
+table {
+    width: 65%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+label {
+    font-size: 19px;
+    font-family: 'Pangolin', cursive;
+}
+
+table.list {
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+td {
+    text-align: left;
+    padding: 8px 15px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165, 161, 161);
+    border-radius: 30px 15px;
+    font-family: 'Merienda', cursive;
+    background-color: rgb(202, 200, 200);
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus {
+    background-color: white;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    position: relative;
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 40px 0;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.5s;
+    overflow: hidden;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Quintessential', cursive;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background: #03e9f4;
+    box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 30px #03e9f4, 0 0 100px #03e9f4;
+}
+
+th {
+    font-family: 'Pangolin', cursive;
+    font-size: 24px;
+}
+
+tbody {
+    font-family: 'Merienda', cursive;
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 40px 0;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.5s;
+    overflow: hidden;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Quintessential', cursive;
+}
+
+button:hover {
+    background: #03e9f4;
+    box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 30px #03e9f4, 0 0 100px #03e9f4;
+}
+
+#Bttn {
+    display: none;
+}
+
+body::-webkit-scrollbar {
+    width: 3px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
