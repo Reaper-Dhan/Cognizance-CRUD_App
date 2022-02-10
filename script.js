@@ -51,7 +51,7 @@ function onEdit(td) {
     document.getElementById("age").value = selectedRow.cells[1].innerHTML;
     document.getElementById("email").value = selectedRow.cells[2].innerHTML;
     document.getElementById("phone").value = selectedRow.cells[3].innerHTML;
-    document.getElementById("skill").value = selectedRow.cells[3].innerHTML;
+    document.getElementById("skill").value = selectedRow.cells[4].innerHTML;
 }
 
 function updateRecord(formData) {
